@@ -1,0 +1,175 @@
+/* ESTILO GERAL */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    
+}
+
+body{
+    background-color: #000;
+    height: 100vh;
+
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #5e17eb;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer; 
+    transition: .2s;
+}
+
+h2.titulo{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: #5e17eb;
+    font-size: 38px;
+    text-align: center;
+}
+
+/* ESTILHO DO CABEÇALHO */
+header{
+    padding: 40px 4%;
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+header a{
+    color: #5c5c5c;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+
+
+header nav ul {
+    list-style-type: none; 
+    
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px; 
+}
+
+.btn-contato button:hover{
+    box-shadow: 0px 0px 8px #f0ebeb;
+    transform: scale(1.05);
+}
+
+/* ESTILO DO TOPO DO SITE */
+section.topo-do-site{
+    padding: 40px 4%;
+
+}
+
+.container {
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%; 
+    max-width: 500px; 
+    height: auto; 
+  }
+  
+  .container img {
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%; 
+    height: auto; 
+  }
+
+  section.topo-do-site .flex{
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 90px;
+  }
+
+  .topo-do-site h1{
+    color: #fff;
+    font-size: 42px;
+    line-height: 40px;
+  }
+
+  .topo-do-site .txt-topo-site p{
+    color: #fff;
+    margin: 40px 0;
+    
+  }
+
+  .topo-do-site .img-topo-site{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+  }
+
+  @keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+  }
+
+  /* ESTILO DAS ESPECIALIDADES */
+  section.especialidades{
+    padding: 40px 4%;
+  }
+
+  section.especialidades .flex{
+    gap: 60px;
+  }
+
+  .especialidades .especialidades-box{
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    margin-top: 45px;
+    transition: .2s;
+  }
+
+  .especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff78;
+
+
+  }
+  
+  .especialidades .especialidades-box i{
+    font-size: 70px;
+    color: #5e17eb;
+  }
+
+  .especialidades .especialidades-box p{
+    font-size: 28px;
+    margin: 15px;
+  }
+  
+  
